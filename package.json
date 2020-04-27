@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start:staging": "node server.js",
-    "build:staging": "ng build --prod",
-    "deploy:staging": "npm run build:staging && npm run start:staging",
+    "start": "node server.js",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
